@@ -47,3 +47,15 @@
   </tr>
 
 </table>
+
+### Data Ingestion Pipeline
+
+1.Steps
+  1. Data Parsing
+    1. Prepare Meta-Data
+    2. Split Data into Chunks    
+  3. Document Structure
+   
+
+### Data Retrieval Pipeline
+
