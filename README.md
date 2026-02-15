@@ -25,7 +25,7 @@
   </tr>
   <tr>
     <td>1</td>
-    <td>&nbsp;</td>
+    <td>Data Ingestion</td>
     <td>Load User Data into Vector DB</td>
     <td>
       1. Parse Documents (pdf, txt, db data,  json etc)
@@ -40,9 +40,10 @@
     <td>
       1. Convert User Question/Query into Embeddings
       2. Search user Querstion/Query (embedddings) in Vector DB using Similarity Search 
-      3. Search action will return some context/information
+      3. Search action will return some context/information from Vector DB
       4. define a promppt based on the app feature, this is like an instructions to LLM 
-      5. Use Vector DB Information + specific prompt to send the data to LLM to get the output
+      5. Use Vector DB output + specific prompt to send the data to LLM to get the output
     </td>
   </tr>
+
 </table>
